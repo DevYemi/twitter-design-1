@@ -35,6 +35,5 @@ function mergeImgDataWithDecor() {
     }
 }
 mergeImgDataWithDecor();
-console.log(animatedImages)
 
 export { datas, animatedImages }
