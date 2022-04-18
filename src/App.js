@@ -131,14 +131,14 @@ function App() {
           </div>
         </div>
         <div data-type='Animated-Images' className='absolute flex top-[-197px] left-[-30px]'>
-          <div data-type='hidden relative' className={`max-h-[400px] max-w-[400px]`}>
-            <img src={datas[1].decor[0]} className={`max-w-full w-[300px] h-[300px] translate-x-[-30px] translate-y-[118px] blur-md object-contain`} alt="img" />
+          <div data-type='hidden' className={`relative left-[-184px] max-h-[400px] max-w-[400px]`}>
+            <img src={datas[1].decor[0]} className={`max-w-full w-[300px] h-[300px] translate-x-[-30px] translate-y-[175px] blur-md object-contain`} alt="img" />
             <img src={datas[1].url} className={`max-w-full w-[300px] h-[300px] translate-x-[-98px] translate-y-[8px] object-contain`} alt="img" />
             <img src={datas[1].decor[1]} className={`max-w-full w-[300px] h-[300px] translate-x-[-29px] translate-y-[-130px] blur-md object-contain`} alt="img" />
           </div>
-          <div data-type='shown relative' className={`max-h-[400px] max-w-[400px]`}>
+          <div data-type='shown' className={`relative top-[180px] right-[7%] lg:right-[-21%] max-h-[400px] max-w-[400px]`}>
             <img src={datas[0].url} className={`max-w-full w-[300px] h-[300px] translate-x-[-30px] translate-y-[118px] object-contain`} alt="img" />
-            <img src={datas[0].decor} className={`max-w-full w-[300px] h-[300px] translate-x-[98px] translate-y-[-61px]  blur-md object-contain`} alt="img" />
+            <img src={datas[0].decor} className={`max-w-full w-[300px] h-[300px] translate-x-[-98px] translate-y-[-61px]  blur-md object-contain`} alt="img" />
           </div>
         </div>
       </div>
