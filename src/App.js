@@ -123,12 +123,12 @@ function App() {
               </svg>
               <div className='absolute left-[25%] top-[13%] text-white'>
                 <CloudIcon className='h-4 w-4' />
-                <div className='text-[2rem] uppercase max-w-[147px] overflow-x-hidden md:text-[3rem] ' >
+                <div className='text-[2rem] uppercase max-w-[110px] md:max-w-[147px] overflow-x-hidden md:text-[3rem] ' >
                   <ul data-type='ANIMATION-BLOBTEXT' className='relative space-x-3 block list-none whitespace-nowrap'>
                     {datas.map((data, i) => (
-                      <li key={i} className='inline-block max-w-[142px] whitespace-normal'>{data.text}</li>
+                      <li key={i} className='inline-block max-w-[110px] md:max-w-[142px] whitespace-normal'>{data.text}</li>
                     ))}
-                    <li className='inline-block max-w-[142px] whitespace-normal'>{datas[0].text}</li>
+                    <li className='inline-block max-w-[110px] md:max-w-[142px] whitespace-normal'>{datas[0].text}</li>
                   </ul>
                 </div>
                 <img src="/img/cloudBlur.png" className='w-[100px] relative top-[-12px] right-[16px] rotate-[5deg]' alt="decor" />
