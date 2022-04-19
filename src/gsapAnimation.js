@@ -21,9 +21,10 @@ export function animation() {
     let textAnimationWidth = textAnimation[0].offsetWidth;
     let blobTextAnimationWidth = blobTextAnimation[0].offsetWidth;
     let animationIndex = 0;
-    let tl = null
+    let tl = null;
+
     function animate(textValue, blobTextValue, duration, delay) {
-        console.log(duration)
+        // run the animation
         tl = gsap.timeline({
             defaults: { duration, ease: 'power4', delay },
             onComplete: incrementAnimate
@@ -53,6 +54,7 @@ export function animation() {
     }
 
     function resetAnimation() {
+        // reset animation values after a user resize the page
         tl && tl.kill();
         tl = null;
         animationIndex = 0;

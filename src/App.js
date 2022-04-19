@@ -10,7 +10,7 @@ import { useEffect } from 'react';
 function App() {
 
   useEffect(() => {
-    const resetAnimation = animation();
+    const resetAnimation = animation(); // run animation after app has render
 
     window.addEventListener('resize', resetAnimation)
 
